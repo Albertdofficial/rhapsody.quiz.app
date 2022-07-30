@@ -19,7 +19,7 @@ body {
   color:  #343a40;
   background-color: #fff;
   margin-top: 0;
-  padding: 2rem 0;
+  padding: 1rem 0;
   text-align: center;
 }
 
@@ -108,7 +108,7 @@ input[type="radio"]:checked:after {
   font-family: inherit;
   padding: 0.5rem 2rem;
   margin-left: 2rem;
-  margin-top: 4rem;
+  margin-top: 2rem;
   border-radius: 2rem;
 }
 
@@ -134,7 +134,10 @@ input[type="radio"]:checked:after {
 .correctEl {
   font-size: 2rem;
   font-weight: 700;
-  margin: 2rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
 
 .quiz-result {
